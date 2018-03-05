@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Fun Quiz</string>
+    <string name="instruction">Instructions</string>
+    <string name="startExam">Start Quiz</string>
+    <string name="actualInstructions">1. Make Sure you mention Valid Email Id. "\n"2. Enter your Name correctly without any Spelling mistakes."\n"3. Check the box below before Start Exam."\n"4. Each Question carriers 3 marks  if correctly answered, -2 marks for wrong answer."\n" 4. To save Answer you need to Click Submit button for each and every Answer."\n"5. Cannot Change answer Once Submitted.</string>
+    <string name="enterName">Enter Your Name</string>
+    <string name="nameSubmit">Submit</string>
+    <string name="Questions">Questions</string>
+
+
+    <string name="Question1">1. Who is the present CEO of Google ?</string>
+    <string name="Question1_option_a">Sundar Pichai</string>
+    <string name="Question1_option_b">Steve</string>
+    <string name="Question1_option_c">Nadella</string>
+    <string name="Question1_option_d">Charles Babbage</string>
+
+    <string name="Question2">2. Which country allows women to start business without male permission?</string>
+    <string name="Question2_option_a">Indonesia</string>
+    <string name="Question2_option_b">Pakistan</string>
+    <string name="Question2_option_c">Denmark</string>
+    <string name="Question2_option_d">Saudi Arabia</string>
+    <string name="Question3">3. XML stands for ?</string>
+</resources>

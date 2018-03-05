@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterName"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textStyle="bold"
+            android:inputType="textCapCharacters"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <EditText
+            android:id="@+id/email_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Id ..."
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <Button
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:id="@+id/namesubmit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nameSubmit"
+            android:textStyle="bold"
+            android:onClick="startQuizFunction"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:background="@color/colorAccent"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
